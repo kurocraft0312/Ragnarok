@@ -1,0 +1,2 @@
+# Ragnarok
+Destructive WordPress theme.
