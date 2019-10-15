@@ -17,17 +17,22 @@ body {
 /**************************************************
 header
 **************************************************/
+.site-header {
+    /* グラデーションカラー設定 */
+    background: linear-gradient(to right,#200122,#D20200);
+}
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: none;
 }
 /* ナビゲーションメニューとタイトル位置を合わせるため、.uk-navbar-nav>li>aのCSSクラスを一部複写 */
-.site_title {
+.site-title {
     display: flex;
     font-size: 1.6rem;
-    justify-content: center;
     align-items: center;
-    box-sizing: border-box;
-    min-height: 80px;
+    color: #fff;
+}
+.uk-navbar-nav>li>a {
+    color: #fff;
 }
 
 /**************************************************
