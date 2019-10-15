@@ -17,8 +17,17 @@ body {
 /**************************************************
 header
 **************************************************/
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: none;
+}
+/* ナビゲーションメニューとタイトル位置を合わせるため、.uk-navbar-nav>li>aのCSSクラスを一部複写 */
 .site_title {
+    display: flex;
     font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 80px;
 }
 
 /**************************************************
